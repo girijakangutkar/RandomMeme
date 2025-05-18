@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(243, 239, 234);
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 400px;
+  width: 900px;
+  align-content: center;
+}
+
+.card h2 {
+  text-align: left;
+}
+
+#nextbtn {
+  margin-top: 30px;
+}
