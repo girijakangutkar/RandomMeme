@@ -10,12 +10,12 @@ function App() {
     fetchMeme();
   }, []);
 
+  const ApiKey = import.meta.env.VITE_API_KEY;
+
   async function fetchMeme() {
     setLoading(true);
     try {
-      const response = await axios.get(
-        "https://official-joke-api.appspot.com/random_joke"
-      );
+      const response = await axios.get(`${ApiKey}`);
 
       setRandomMeme(response.data);
     } catch (err) {
