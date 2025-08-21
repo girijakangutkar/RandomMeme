@@ -1,12 +1,26 @@
-# React + Vite
+# Meme Stream
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic React application that fetches and displays random memes from a public meme API. Built with modular components and responsive design, the app showcases real-time meme updates using asynchronous data fetching and robust UI states.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches random memes from a public API
+- Asynchronous data handling with `useEffect` and `fetch` or `Axios`
+- Loading and error states for smooth UX
+- Responsive layout for mobile and desktop
+- Modular component structure for scalability
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Hooks)
+- Axios or Fetch API
+- CSS or Styled Components
+
+## Getting Started
+
+### Installation
+
+```bash
+git clone https://github.com/girijakangutkar/RandomMeme.git
+cd RandomMeme
+npm install
