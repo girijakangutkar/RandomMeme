@@ -1,4 +1,4 @@
-# Meme Stream
+# Random Meme
 
 A dynamic React application that fetches and displays random memes from a public meme API. Built with modular components and responsive design, the app showcases real-time meme updates using asynchronous data fetching and robust UI states.
 
